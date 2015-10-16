@@ -1,0 +1,113 @@
+
+h1 {
+  text-align: center; /*this puts the main header in the centrer of the page*/
+}
+
+.board {
+  width: 820px;
+  margin: 0 auto; /*this centers the board */
+  overflow: auto;
+}
+
+.box {
+  float: left; /* this floats all the boxes to the left */
+	border: 5px solid clear;
+	width: 170px;
+	height: 100px;
+	font-size: 50px;
+	text-align:center; /* this centers the text horizontally */
+	line-height:100px; /* this centers the text vertically, by making the text 'think' that it is 100px tall */
+
+}
+
+.button {
+  margin-top: 20px;
+  text-align: center;
+  color: #FF0000;
+  width: 1162px;
+  display: block;
+  padding: 12px;
+}
+
+img {
+  height: 110px;
+  width: 171px;
+}
+
+#player1 {
+  text-align: left;
+  display: inline-block;
+
+}
+#player2 {
+  text-align: right;
+  display: inline-block;
+  width: 80%;
+
+}
+
+.image {
+
+}
+
+.hidden {
+  display:none;
+  height: 110px;
+  width: 171px;
+}
+
+.name {
+  font-size: 47px;
+}
+
+.player1 {
+  float: left;
+	border: 5px solid black;
+	width: 200px;
+	height: 200px;
+  text-align: center;
+  font-size: 100px;
+  color: #E80000;
+
+  line-height: inherit;
+
+}
+
+.player2 {
+  float: right;
+	border: 5px solid black;
+	width: 200px;
+	height: 200px;
+  text-align: center;
+  font-size: 100px;
+  color: #E80000;
+  line-height: inherit;
+}
+
+/*#background {
+  background-image: ("img/background4.jpg");
+   background-repeat: no-repeat;
+   background-position: right top;
+   margin-right: 200px;
+}*/
+
+
+  /*#shuffle {
+    margin-top: 20px;
+    text-align: center;
+    color: #FF0000;
+    width: 200px;
+    height: 100px;
+    display: block;
+    padding: 12px;
+
+  }
+
+  #reset {
+    margin-top: 20px;
+    text-align: center;
+    color: #FF0000;
+    width: px;
+    display: block;
+    padding: 12px;
+  }*/
